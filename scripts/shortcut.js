@@ -109,7 +109,7 @@ async function openSceneShortcutForm(position) {
                 const type = button.dataset.type;
                 const target = button.dataset.target;
 
-                new FilePicker({
+                new foundry.applications.FilePicker({
                     type: type,
                     current: input.value === "" ? 'icons/svg/' : input.value,
                     callback: path => {
@@ -208,4 +208,3 @@ function handleNoteDoubleClick(event) {
         console.log("Dados do clique:", flags);
     }
 }
-

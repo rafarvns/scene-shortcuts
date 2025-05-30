@@ -1,10 +1,10 @@
 {
   "id": "scene-shortcuts",
   "title": "Scene Shortcuts",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12"
+    "minimum": "13",
+    "verified": "13"
   },
   "description": "Scene Shortcuts\nEffortlessly jump between scenes with clickable map icons.\n\nScene Shortcuts is a lightweight and intuitive Foundry VTT module that allows you to place interactive icons directly on a scene's map. These icons act as shortcuts, letting players and GMs instantly transition to another scene with a single click.\n\nPerfect for multi-room dungeons, world maps, or any setting where fast scene navigation enhances immersion and gameplay flow.\n\nFeatures:\n\nAdd custom icons to any scene as teleport shortcuts.\n\nEasily link icons to target scenes through a simple configuration menu.\n\nSupports GM-only or player-visible shortcut options.\n\nFully customizable icon appearance and positioning.\n\nMake your worlds feel more connected and alive—navigate your campaigns faster with Scene Shortcuts.",
   "scripts": [],
