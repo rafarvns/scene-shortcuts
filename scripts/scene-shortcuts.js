@@ -50,14 +50,23 @@ class SceneShortcuts {
      * @param {Array} controls - The array of control buttons
      */
     static getSceneControlButtons(controls) {
-        const notesLayer = controls.find(c => c.name === "notes");
-        notesLayer.tools.push({
-            name: "scene-shortcut-button",
+        controls.push({
+            name: "scene-shortcuts",
             title: game.i18n.localize("SCENE-SHORTCUTS.Controls.Title"),
             icon: "fas fa-signs-post",
-            button: true,
-            active: false,
-            onClick: this.toggleSceneShortcutTool.bind(this)
+            layer: "notes", // Define a camada associada
+            tools: [
+                {
+                    name: "scene-shortcut-button",
+                    title: game.i18n.localize("SCENE-SHORTCUTS.Controls.Title"),
+                    icon: "fas fa-signs-post",
+                    button: true,
+                    onClick: this.toggleSceneShortcutTool.bind(this),
+                    active: false,
+                    order: 0
+                }
+            ],
+            activeTool: "scene-shortcut-button" // Define a ferramenta ativa
         });
     }
 
