@@ -37,16 +37,10 @@
     }
   ],
   "url": "https://github.com/rafarvns/scene-shortcuts",
-  "manifest": "https://github.com/rafarvns/scene-shortcuts/releases/latest/download/module.json",
-  "download": "https://github.com/rafarvns/scene-shortcuts/releases/latest/download/module.zip",
+  "manifest": "https://raw.githubusercontent.com/rafarvns/scene-shortcuts/refs/heads/main/module.json",
+  "download": "https://github.com/rafarvns/scene-shortcuts/releases/download/untagged-b172d026f9bc9de2308a/scene-shortcuts.zip",
   "license": "MIT",
   "readme": "README.md",
   "bugs": "https://github.com/rafarvns/scene-shortcuts/issues",
-  "changelog": "CHANGELOG.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://raw.githubusercontent.com/rafarvns/scene-shortcuts/main/icons/door-exit.svg"
-    }
-  ]
+  "changelog": "CHANGELOG.md"
 }
