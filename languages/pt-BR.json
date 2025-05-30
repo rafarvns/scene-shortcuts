@@ -1,0 +1,26 @@
+{
+  "SCENE-SHORTCUTS": {
+    "Controls": {
+      "Title": "Atalhos de Cena"
+    },
+    "Form": {
+      "Title": "Atalho de Cena",
+      "Save": "Salvar",
+      "Cancel": "Cancelar",
+      "ShortcutTitle": "Título do Atalho:",
+      "PositionX": "Posição X:",
+      "PositionY": "Posição Y:",
+      "Description": "Descrição:",
+      "Scene": "Cena:",
+      "Image": "Imagem:",
+      "ImagePath": "Caminho da imagem",
+      "ImageScale": "Escala da Imagem:"
+    },
+    "Notifications": {
+      "NoActiveScene": "Nenhuma cena está ativa atualmente.",
+      "ShortcutCreated": "Atalho \"{title}\" inserido na cena atual \"{sceneName}\".",
+      "ShortcutError": "Falha ao criar atalho de cena. Veja o console para detalhes.",
+      "SceneNotFound": "Cena de destino não encontrada. Ela pode ter sido excluída."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+<form>
+    <div class="form-group">
+        <label>{{localize "SCENE-SHORTCUTS.Form.ShortcutTitle"}}</label>
+        <input type="text" name="title" value="{{localize 'SCENE-SHORTCUTS.Form.Title'}}">
+    </div>
+    <div class="form-group">
+        <label>{{localize "SCENE-SHORTCUTS.Form.PositionX"}}</label>
+        <input type="number" name="posX" value="{{posX}}" readonly>
+    </div>
+    <div class="form-group">
+        <label>{{localize "SCENE-SHORTCUTS.Form.PositionY"}}</label>
+        <input type="number" name="posY" value="{{posY}}" readonly>
+    </div>
+    <div class="form-group">
+        <label>{{localize "SCENE-SHORTCUTS.Form.Description"}}</label>
+        <textarea name="description"></textarea>
+    </div>
+    <div class="form-group">
+        <label>{{localize "SCENE-SHORTCUTS.Form.Scene"}}</label>
+        <select name="sceneId">
+            {{#each scenes}}
+            <option value="{{this.id}}">{{this.name}}</option>
+            {{/each}}
+        </select>
+    </div>
+    <div class="form-group">
+        <label>{{localize "SCENE-SHORTCUTS.Form.Image"}}</label>
+        <div class="form-fields">
+            <input type="text" name="imagePath" placeholder='{{localize "SCENE-SHORTCUTS.Form.ImagePath"}}'>
+            <button type="button" class="file-picker" data-type="imagevideo" data-target="imagePath">
+                <i class="fas fa-file-import fa-fw"></i>
+            </button>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>{{localize "SCENE-SHORTCUTS.Form.ImageScale"}}</label>
+        <div class="form-fields">
+            <input type="number" name="imageScale" value="1" min="0.1" max="10" step="0.1">
+        </div>
+    </div>
+</form>

@@ -1,0 +1,52 @@
+{
+  "id": "scene-shortcuts",
+  "title": "Scene Shortcuts",
+  "version": "1.1.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "Scene Shortcuts\nEffortlessly jump between scenes with clickable map icons.\n\nScene Shortcuts is a lightweight and intuitive Foundry VTT module that allows you to place interactive icons directly on a scene's map. These icons act as shortcuts, letting players and GMs instantly transition to another scene with a single click.\n\nPerfect for multi-room dungeons, world maps, or any setting where fast scene navigation enhances immersion and gameplay flow.\n\nFeatures:\n\nAdd custom icons to any scene as teleport shortcuts.\n\nEasily link icons to target scenes through a simple configuration menu.\n\nSupports GM-only or player-visible shortcut options.\n\nFully customizable icon appearance and positioning.\n\nMake your worlds feel more connected and alive—navigate your campaigns faster with Scene Shortcuts.",
+  "scripts": [],
+  "esmodules": ["scripts/scene-shortcuts.js"],
+  "styles": ["styles/scene-shortcuts.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "languages/pt-BR.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "languages/es.json"
+    }
+  ],
+  "authors": [
+    {
+      "name": "flamolino",
+      "email": "rafarvns@gmail.com",
+      "url": "https://github.com/rafarvns",
+      "discord": "flamolino",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/rafarvns/scene-shortcuts",
+  "manifest": "https://github.com/rafarvns/scene-shortcuts/releases/latest/download/module.json",
+  "download": "https://github.com/rafarvns/scene-shortcuts/releases/latest/download/module.zip",
+  "license": "MIT",
+  "readme": "README.md",
+  "bugs": "https://github.com/rafarvns/scene-shortcuts/issues",
+  "changelog": "CHANGELOG.md",
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://raw.githubusercontent.com/rafarvns/scene-shortcuts/main/icons/door-exit.svg"
+    }
+  ]
+}

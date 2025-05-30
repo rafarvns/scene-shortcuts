@@ -1,0 +1,26 @@
+{
+  "SCENE-SHORTCUTS": {
+    "Controls": {
+      "Title": "Scene Shortcuts"
+    },
+    "Form": {
+      "Title": "Scene Shortcut",
+      "Save": "Save",
+      "Cancel": "Cancel",
+      "ShortcutTitle": "Shortcut Title:",
+      "PositionX": "Position X:",
+      "PositionY": "Position Y:",
+      "Description": "Description:",
+      "Scene": "Scene:",
+      "Image": "Image:",
+      "ImagePath": "Image path",
+      "ImageScale": "Image Scale:"
+    },
+    "Notifications": {
+      "NoActiveScene": "No active scene is currently loaded.",
+      "ShortcutCreated": "Shortcut \"{title}\" inserted in the current scene \"{sceneName}\".",
+      "ShortcutError": "Failed to create scene shortcut. See console for details.",
+      "SceneNotFound": "Target scene not found. It may have been deleted."
+    }
+  }
+}

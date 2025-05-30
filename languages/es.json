@@ -1,0 +1,26 @@
+{
+  "SCENE-SHORTCUTS": {
+    "Controls": {
+      "Title": "Atajos de Escena"
+    },
+    "Form": {
+      "Title": "Atajo de Escena",
+      "Save": "Guardar",
+      "Cancel": "Cancelar",
+      "ShortcutTitle": "Título del Atajo:",
+      "PositionX": "Posición X:",
+      "PositionY": "Posición Y:",
+      "Description": "Descripción:",
+      "Scene": "Escena:",
+      "Image": "Imagen:",
+      "ImagePath": "Ruta de la imagen",
+      "ImageScale": "Escala de la Imagen:"
+    },
+    "Notifications": {
+      "NoActiveScene": "No hay ninguna escena activa actualmente.",
+      "ShortcutCreated": "Atajo \"{title}\" insertado en la escena actual \"{sceneName}\".",
+      "ShortcutError": "Error al crear atajo de escena. Consulta la consola para más detalles.",
+      "SceneNotFound": "Escena de destino no encontrada. Es posible que haya sido eliminada."
+    }
+  }
+}

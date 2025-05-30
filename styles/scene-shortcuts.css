@@ -1,0 +1,72 @@
+
+.scene-shortcuts-form .form-group {
+    margin-bottom: 10px;
+}
+
+.scene-shortcuts-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.scene-shortcuts-form input[type="text"],
+.scene-shortcuts-form input[type="number"],
+.scene-shortcuts-form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #7a7971;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.scene-shortcuts-form textarea {
+    min-height: 60px;
+    resize: vertical;
+}
+
+.scene-shortcuts-form .form-fields {
+    display: flex;
+    align-items: center;
+}
+
+.scene-shortcuts-form .form-fields input {
+    flex: 1;
+    margin-right: 5px;
+}
+
+.scene-shortcuts-form .file-picker {
+    flex: 0 0 auto;
+    width: 32px;
+    height: 32px;
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid #7a7971;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scene-shortcuts-form .file-picker:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.scene-shortcut-icon {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.scene-shortcut-icon:hover {
+    transform: scale(1.1);
+}
+
+.scene-shortcut-tooltip {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    pointer-events: none;
+    z-index: 1000;
+    max-width: 200px;
+}
