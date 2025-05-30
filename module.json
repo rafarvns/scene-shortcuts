@@ -38,7 +38,7 @@
   ],
   "url": "https://github.com/rafarvns/scene-shortcuts",
   "manifest": "https://raw.githubusercontent.com/rafarvns/scene-shortcuts/refs/heads/main/module.json",
-  "download": "https://github.com/rafarvns/scene-shortcuts/releases/download/untagged-b172d026f9bc9de2308a/scene-shortcuts.zip",
+  "download": "https://github.com/rafarvns/scene-shortcuts/archive/refs/heads/main.zip",
   "license": "MIT",
   "readme": "README.md",
   "bugs": "https://github.com/rafarvns/scene-shortcuts/issues",
